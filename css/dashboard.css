@@ -142,11 +142,6 @@ footer {
     text-align: center;
 }
 
-
-body {
-    font-family: Arial, sans-serif;
-}
-
 .my_blog {
     margin: 20px;
 }
@@ -214,7 +209,6 @@ header nav ul li {
 .category-list ul {
     list-style: none;
     padding: 0;
-    width: 30%;
 }
 
 .category-list ul li {

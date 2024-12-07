@@ -8,7 +8,7 @@ const firebaseConfig = {
     authDomain: "smit-firebase-hackathon.firebaseapp.com",
     databaseURL: "https://smit-firebase-hackathon-default-rtdb.firebaseio.com",
     projectId: "smit-firebase-hackathon",
-    storageBucket: "smit-firebase-hackathon.appspot.com",
+    storageBucket: "smit-firebase-hackathon.firebasestorage.app",
     messagingSenderId: "280453971656",
     appId: "1:280453971656:web:0df427f3d860cdac6baffd",
     measurementId: "G-38LK4Y47C5"
@@ -193,4 +193,5 @@ logoutBtn.addEventListener('click', () => {
         notify.innerHTML = "Error signing out.";
     });
 });
+
 
