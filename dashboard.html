@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <!-- my blog area admin -->
+    <div class="my_blog">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./html/login.html">login</a></li>
+                    <li><a href="#" id="logout">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="notifiy"></div>
+        <div class="container main">
+            <div class="main_content">
+                <!-- post form -->
+                <div class="post_form">
+                    <label>Title</label>
+                    <input type="text" id="title" placeholder="Enter title">
+                    
+                    <label>Your Post</label>
+                    <textarea id="post_content" cols="30" rows="10" placeholder="Enter post content"></textarea>
+
+                    <!-- Image Upload Option -->
+                    <label>Post Image (optional)</label>
+                    <input type="file" id="imageUpload" accept="image/*">
+
+                    <!-- Category Dropdown -->
+                    <label>Category</label>
+                    <select id="category">
+                        <option value="Technology">Technology</option>
+                        <option value="Lifestyle">Lifestyle</option>
+                        <option value="Health">Health</option>
+                        <option value="Business">Business</option>
+                    </select>
+
+                    <button id="post_btn" class="post_btn">Post Now</button>
+                    <button id="update_btn" class="update_btn">Update Post</button>
+                </div>
+                
+                <!-- table -->
+                <div class="my_content">
+                    <h2>My Posts</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Category</th>
+                                <th>Content</th>
+                                <th>Post Image</th>
+                                <th>Publish Date</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_text">
+            <p></p>
+        </div>
+    </footer>
+    <script type="module" src="js/dashboard.js"></script>
+</body>
+</html>
+
+
